@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="stack" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="586.0" prefWidth="763.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.simulink.Controller">
+   <children>
+      <ImageView fitHeight="590.0" fitWidth="610.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../simulink1.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="browse" mnemonicParsing="false" onAction="#buttonAction" style="-fx-text-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%); -fx-border-radius: 10; -fx-border-color: Black; -fx-background-color: White;" text="Browse" textAlignment="CENTER">
+         <font>
+            <Font name="Open Sans Bold Italic" size="16.0" />
+         </font>
+         <StackPane.margin>
+            <Insets top="126.0" />
+         </StackPane.margin>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label fx:id="open" prefHeight="133.0" prefWidth="276.0" textAlignment="CENTER">
+         <padding>
+            <Insets top="55.0" />
+         </padding>
+         <font>
+            <Font name="French Script MT" size="50.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <StackPane.margin>
+            <Insets top="293.0" />
+         </StackPane.margin>
+      </Label>
+   </children>
+</StackPane>
