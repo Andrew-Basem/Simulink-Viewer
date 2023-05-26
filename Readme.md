@@ -6,8 +6,8 @@ Simulink Viewer is a software tool that allows users to read Simulink MDL files 
 
 The Simulink Viewer software is based on the Maven project structure and will consist of two main components: a Simulink MDL file parser and a Java-based GUI. The parser will be responsible for reading the MDL file and extracting the model information, including the block diagram, parameters, and connections. The GUI will provide a user-friendly interface for displaying the model and enabling user interaction.
 
-All resources, including .mdl files and photos, are located in the simulink\simulink\src\main\resources folder.
-Maven dependencies are in pom.xml
+All resources, including .mdl files and photos, are located in the simulink\src\main\resources folder.
+Maven dependencies are in simulink\pom.xml
 
 ## Usage
 
@@ -42,11 +42,11 @@ In addition to Simulink, MDL files are also used in other MathWorks products lik
 
 ## Credits
 
-1)2000261 Andrew Basem Ishak <br />
-2)2000916 Carol Botros Wissa <br />
-3)2000042 Andrew Gamal Todary <br />
-4)2000977 Marline mansour mansy <br />
-5)2001814 Jan Farag Hanna
+1.  2000261 Andrew Basem Ishak <br />
+2.  2000916 Carol Botros Wissa <br />
+3.  2000042 Andrew Gamal Todary <br />
+4.  2000977 Marline mansour mansy <br />
+5.  2001814 Jan Farag Hanna
 
 ## Example MDL
 
