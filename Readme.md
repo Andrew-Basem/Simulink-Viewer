@@ -42,10 +42,10 @@ In addition to Simulink, MDL files are also used in other MathWorks products lik
 
 ## Credits
 
-1)2000261 Andrew Basem Ishak
-2)2000916 Carol Botros Wissa
-3)2000042 Andrew Gamal Todary
-4)2000977 Marline mansour mansy
+1)2000261 Andrew Basem Ishak <br />
+2)2000916 Carol Botros Wissa <br />
+3)2000042 Andrew Gamal Todary <br />
+4)2000977 Marline mansour mansy <br />
 5)2001814 Jan Farag Hanna
 
 ## Example MDL
