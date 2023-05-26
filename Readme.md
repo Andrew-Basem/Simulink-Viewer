@@ -1,3 +1,7 @@
+
+
+https://github.com/Andrew-Basem/Simulink-Viewer/assets/101835154/7c8643f2-46a9-4a47-a194-fd81633f37a5
+
 # Simulink Viewer
 
 Simulink Viewer is a software tool that allows users to read Simulink MDL files and display their contents in a user-friendly way using a Java-based graphical user interface (GUI). The project aims to provide a quick and easy way to visualize Simulink models without the need for the Simulink environment itself.
